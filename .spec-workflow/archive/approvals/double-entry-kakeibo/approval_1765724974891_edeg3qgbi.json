@@ -1,0 +1,29 @@
+{
+  "id": "approval_1765724974891_edeg3qgbi",
+  "title": "Tasks approval: double-entry household bookkeeping (kakeibo)",
+  "filePath": ".spec-workflow/specs/double-entry-kakeibo/tasks.md",
+  "type": "document",
+  "status": "needs-revision",
+  "createdAt": "2025-12-14T15:09:34.891Z",
+  "category": "spec",
+  "categoryName": "double-entry-kakeibo",
+  "response": "Feedback Summary (1 comments):\n\nSpecific Text Comments:\n1. \"1. Project scaffolding (Python + SQLite)\": Scala + ZIO + SQLite で作りたいです\n",
+  "annotations": "{\n  \"decision\": \"needs-revision\",\n  \"comments\": [\n    {\n      \"type\": \"selection\",\n      \"comment\": \"Scala + ZIO + SQLite で作りたいです\",\n      \"timestamp\": \"2025-12-14T15:14:33.651Z\",\n      \"selectedText\": \"1. Project scaffolding (Python + SQLite)\",\n      \"highlightColor\": {\n        \"bg\": \"rgba(255, 235, 59, 0.3)\",\n        \"border\": \"#FFEB3B\",\n        \"name\": \"#ffeb3b\"\n      },\n      \"id\": \"comment_1765725273651_rsrrpdota\",\n      \"startOffset\": 23,\n      \"endOffset\": 63\n    }\n  ],\n  \"summary\": \"Feedback Summary (1 comments):\\n\\nSpecific Text Comments:\\n1. \\\"1. Project scaffolding (Python + SQLite)\\\": Scala + ZIO + SQLite で作りたいです\\n\",\n  \"timestamp\": \"2025-12-14T15:14:39.254Z\"\n}",
+  "respondedAt": "2025-12-14T15:14:39.281Z",
+  "comments": [
+    {
+      "type": "selection",
+      "comment": "Scala + ZIO + SQLite で作りたいです",
+      "timestamp": "2025-12-14T15:14:33.651Z",
+      "selectedText": "1. Project scaffolding (Python + SQLite)",
+      "highlightColor": {
+        "bg": "rgba(255, 235, 59, 0.3)",
+        "border": "#FFEB3B",
+        "name": "#ffeb3b"
+      },
+      "id": "comment_1765725273651_rsrrpdota",
+      "startOffset": 23,
+      "endOffset": 63
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "approval_1765725383301_pzf4mravk",
+  "title": "Tasks approval (revised): Scala + ZIO + SQLite",
+  "filePath": ".spec-workflow/specs/double-entry-kakeibo/tasks.md",
+  "type": "document",
+  "status": "approved",
+  "createdAt": "2025-12-14T15:16:23.301Z",
+  "category": "spec",
+  "categoryName": "double-entry-kakeibo",
+  "response": "ダッシュボードから承認",
+  "respondedAt": "2025-12-14T15:49:15.289Z"
+}

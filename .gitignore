@@ -1,0 +1,7 @@
+audit.log
+target/
+.bloop/
+.bsp/
+.metals/
+.idea/
+.morney/

@@ -1,0 +1,22 @@
+{
+  "filePath": ".spec-workflow/specs/double-entry-kakeibo/design.md",
+  "currentVersion": 2,
+  "snapshots": [
+    {
+      "version": 1,
+      "filename": "snapshot-001.json",
+      "timestamp": "2025-12-14T15:05:40.348Z",
+      "trigger": "initial",
+      "approvalId": "approval_1765724740341_oc0jfa1l0",
+      "approvalTitle": "Design approval: double-entry household bookkeeping (kakeibo)"
+    },
+    {
+      "version": 2,
+      "filename": "snapshot-002.json",
+      "timestamp": "2025-12-14T15:08:08.482Z",
+      "trigger": "approved",
+      "approvalId": "approval_1765724740341_oc0jfa1l0",
+      "approvalTitle": "Design approval: double-entry household bookkeeping (kakeibo)"
+    }
+  ]
+}
