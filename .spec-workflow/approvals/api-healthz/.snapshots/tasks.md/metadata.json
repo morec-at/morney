@@ -1,0 +1,30 @@
+{
+  "filePath": ".spec-workflow/specs/api-healthz/tasks.md",
+  "currentVersion": 3,
+  "snapshots": [
+    {
+      "version": 1,
+      "filename": "snapshot-001.json",
+      "timestamp": "2025-12-19T04:36:53.785Z",
+      "trigger": "initial",
+      "approvalId": "approval_1766119013776_bnef2f04g",
+      "approvalTitle": "api-healthz tasks"
+    },
+    {
+      "version": 2,
+      "filename": "snapshot-002.json",
+      "timestamp": "2025-12-19T04:39:13.772Z",
+      "trigger": "revision_requested",
+      "approvalId": "approval_1766119013776_bnef2f04g",
+      "approvalTitle": "api-healthz tasks"
+    },
+    {
+      "version": 3,
+      "filename": "snapshot-003.json",
+      "timestamp": "2025-12-19T04:42:24.187Z",
+      "trigger": "approved",
+      "approvalId": "approval_1766119178909_0y0twczlk",
+      "approvalTitle": "api-healthz tasks (rev 1)"
+    }
+  ]
+}

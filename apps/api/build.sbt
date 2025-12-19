@@ -21,3 +21,15 @@ ThisBuild / scalacOptions ++= Seq(
 
 lazy val root = project
   .in(file("."))
+
+libraryDependencies ++= Seq(
+  "dev.zio" %% "zio" % "2.1.12",
+  "dev.zio" %% "zio-http" % "3.0.0"
+)
+
+libraryDependencies ++= Seq(
+  "dev.zio" %% "zio-test" % "2.1.12" % Test,
+  "dev.zio" %% "zio-test-sbt" % "2.1.12" % Test
+)
+
+testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")

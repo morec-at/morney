@@ -1,0 +1,29 @@
+{
+  "id": "approval_1766118756435_9sxauz8ns",
+  "title": "api-healthz design",
+  "filePath": ".spec-workflow/specs/api-healthz/design.md",
+  "type": "document",
+  "status": "needs-revision",
+  "createdAt": "2025-12-19T04:32:36.435Z",
+  "category": "spec",
+  "categoryName": "api-healthz",
+  "response": "Feedback Summary (1 comments):\n\nSpecific Text Comments:\n1. \"The design minimizes dependencies,\": ZIO を使うつもりなので ZIO-HTTP を使ってください\n",
+  "annotations": "{\n  \"decision\": \"needs-revision\",\n  \"comments\": [\n    {\n      \"type\": \"selection\",\n      \"comment\": \"ZIO を使うつもりなので ZIO-HTTP を使ってください\",\n      \"timestamp\": \"2025-12-19T04:34:16.214Z\",\n      \"selectedText\": \"The design minimizes dependencies,\",\n      \"highlightColor\": {\n        \"bg\": \"rgba(255, 235, 59, 0.3)\",\n        \"border\": \"#FFEB3B\",\n        \"name\": \"#ffeb3b\"\n      },\n      \"id\": \"comment_1766118856214_4izij2qoy\",\n      \"startOffset\": 355,\n      \"endOffset\": 389\n    }\n  ],\n  \"summary\": \"Feedback Summary (1 comments):\\n\\nSpecific Text Comments:\\n1. \\\"The design minimizes dependencies,\\\": ZIO を使うつもりなので ZIO-HTTP を使ってください\\n\",\n  \"timestamp\": \"2025-12-19T04:34:56.333Z\"\n}",
+  "respondedAt": "2025-12-19T04:34:56.347Z",
+  "comments": [
+    {
+      "type": "selection",
+      "comment": "ZIO を使うつもりなので ZIO-HTTP を使ってください",
+      "timestamp": "2025-12-19T04:34:16.214Z",
+      "selectedText": "The design minimizes dependencies,",
+      "highlightColor": {
+        "bg": "rgba(255, 235, 59, 0.3)",
+        "border": "#FFEB3B",
+        "name": "#ffeb3b"
+      },
+      "id": "comment_1766118856214_4izij2qoy",
+      "startOffset": 355,
+      "endOffset": 389
+    }
+  ]
+}

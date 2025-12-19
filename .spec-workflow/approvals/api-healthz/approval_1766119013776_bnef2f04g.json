@@ -1,0 +1,43 @@
+{
+  "id": "approval_1766119013776_bnef2f04g",
+  "title": "api-healthz tasks",
+  "filePath": ".spec-workflow/specs/api-healthz/tasks.md",
+  "type": "document",
+  "status": "needs-revision",
+  "createdAt": "2025-12-19T04:36:53.776Z",
+  "category": "spec",
+  "categoryName": "api-healthz",
+  "response": "Feedback Summary (2 comments):\n\nSpecific Text Comments:\n1. \"apps/api/src/main/scala/\": package は morney でお願いします\n2. \"if test framework exists\": ZIO エコシステムのテスティングフレームワークを使ってください\n",
+  "annotations": "{\n  \"decision\": \"needs-revision\",\n  \"comments\": [\n    {\n      \"type\": \"selection\",\n      \"comment\": \"package は morney でお願いします\",\n      \"timestamp\": \"2025-12-19T04:37:37.194Z\",\n      \"selectedText\": \"apps/api/src/main/scala/\",\n      \"highlightColor\": {\n        \"bg\": \"rgba(255, 235, 59, 0.3)\",\n        \"border\": \"#FFEB3B\",\n        \"name\": \"#ffeb3b\"\n      },\n      \"id\": \"comment_1766119057194_tl6149min\",\n      \"startOffset\": 69,\n      \"endOffset\": 93\n    },\n    {\n      \"type\": \"selection\",\n      \"comment\": \"ZIO エコシステムのテスティングフレームワークを使ってください\",\n      \"timestamp\": \"2025-12-19T04:38:48.566Z\",\n      \"selectedText\": \"if test framework exists\",\n      \"highlightColor\": {\n        \"bg\": \"rgba(255, 235, 59, 0.3)\",\n        \"border\": \"#FFEB3B\",\n        \"name\": \"#ffeb3b\"\n      },\n      \"id\": \"comment_1766119128566_w03t0drue\",\n      \"startOffset\": 1306,\n      \"endOffset\": 1330\n    }\n  ],\n  \"summary\": \"Feedback Summary (2 comments):\\n\\nSpecific Text Comments:\\n1. \\\"apps/api/src/main/scala/\\\": package は morney でお願いします\\n2. \\\"if test framework exists\\\": ZIO エコシステムのテスティングフレームワークを使ってください\\n\",\n  \"timestamp\": \"2025-12-19T04:39:13.767Z\"\n}",
+  "respondedAt": "2025-12-19T04:39:13.776Z",
+  "comments": [
+    {
+      "type": "selection",
+      "comment": "package は morney でお願いします",
+      "timestamp": "2025-12-19T04:37:37.194Z",
+      "selectedText": "apps/api/src/main/scala/",
+      "highlightColor": {
+        "bg": "rgba(255, 235, 59, 0.3)",
+        "border": "#FFEB3B",
+        "name": "#ffeb3b"
+      },
+      "id": "comment_1766119057194_tl6149min",
+      "startOffset": 69,
+      "endOffset": 93
+    },
+    {
+      "type": "selection",
+      "comment": "ZIO エコシステムのテスティングフレームワークを使ってください",
+      "timestamp": "2025-12-19T04:38:48.566Z",
+      "selectedText": "if test framework exists",
+      "highlightColor": {
+        "bg": "rgba(255, 235, 59, 0.3)",
+        "border": "#FFEB3B",
+        "name": "#ffeb3b"
+      },
+      "id": "comment_1766119128566_w03t0drue",
+      "startOffset": 1306,
+      "endOffset": 1330
+    }
+  ]
+}

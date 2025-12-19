@@ -1,0 +1,16 @@
+{
+  "id": "snapshot_1766119344187_7dgzbj9gd",
+  "approvalId": "approval_1766119178909_0y0twczlk",
+  "approvalTitle": "api-healthz tasks (rev 1)",
+  "version": 3,
+  "timestamp": "2025-12-19T04:42:24.187Z",
+  "trigger": "approved",
+  "status": "pending",
+  "content": "# Tasks Document\n\n- [ ] 1. Add ZIO HTTP health check route\n  - File: apps/api/src/main/scala/morney/... (routing module)\n  - Create `GET /healthz` route returning HTTP 200 and `{ status: \"ok\" }`\n  - Ensure route is unauthenticated and performs no dependency checks\n  - _Leverage: Existing ZIO HTTP server/router setup in apps/api (if present)_\n  - _Requirements: 1.1_\n  - _Prompt: Implement the task for spec api-healthz, first run spec-workflow-guide to get the workflow guide then implement the task: Role: Scala Backend Developer with ZIO HTTP expertise | Task: Add a ZIO HTTP `GET /healthz` endpoint under apps/api that returns HTTP 200 and `{ status: \"ok\" }`, integrating with the existing router/server setup if present | Restrictions: Do not add authentication or external dependency checks, do not introduce new frameworks beyond ZIO HTTP, follow existing routing patterns and file structure, use package morney | _Leverage: apps/api/src/main/scala (existing ZIO HTTP router/server), build.sbt_ | _Requirements: 1.1_ | Success: `GET /healthz` responds with HTTP 200 and `{ status: \"ok\" }`, no auth required, no external checks, code compiles and follows project structure; mark task in-progress before coding, log implementation after completion, then mark complete in tasks.md\n\n- [ ] 2. Add tests for health check endpoint using ZIO testing\n  - File: apps/api/src/test/scala/morney/... (test module)\n  - Add tests verifying HTTP 200 and `{ status: \"ok\" }` response\n  - Use ZIO Test (and ZIO HTTP test utilities if available)\n  - _Leverage: Existing ZIO test setup in apps/api (if present), ZIO HTTP test utilities_\n  - _Requirements: 1.1_\n  - _Prompt: Implement the task for spec api-healthz, first run spec-workflow-guide to get the workflow guide then implement the task: Role: Scala QA Engineer with ZIO testing expertise | Task: Add tests for `GET /healthz` using ZIO Test (and ZIO HTTP test utilities if available) to verify HTTP 200 and JSON body `{ status: \"ok\" }` | Restrictions: Do not introduce a non-ZIO test framework, keep tests isolated, follow existing test patterns | _Leverage: apps/api/src/test/scala (existing test setup), ZIO Test, ZIO HTTP test utilities_ | _Requirements: 1.1_ | Success: Health check tests pass with ZIO Test, task status updated with implementation logged\n",
+  "fileStats": {
+    "size": 2305,
+    "lines": 18,
+    "lastModified": "2025-12-19T04:39:36.530Z"
+  },
+  "comments": []
+}

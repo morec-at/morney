@@ -1,0 +1,16 @@
+{
+  "id": "snapshot_1766118612122_bw0rx0wfi",
+  "approvalId": "approval_1766118612095_yschv5ikd",
+  "approvalTitle": "api-healthz requirements",
+  "version": 1,
+  "timestamp": "2025-12-19T04:30:12.122Z",
+  "trigger": "initial",
+  "status": "pending",
+  "content": "# Requirements Document\n\n## Introduction\n\nThis feature adds a simple unauthenticated health check endpoint under `apps/api` to enable basic service availability monitoring.\n\n## Alignment with Product Vision\n\nAlthough steering documents are not provided, this feature supports operational visibility and reliability by enabling uptime checks for the API service.\n\n## Requirements\n\n### Requirement 1\n\n**User Story:** As an operator, I want a lightweight health check endpoint, so that I can verify the API service is running.\n\n#### Acceptance Criteria\n\n1. WHEN a client sends `GET /healthz` THEN the system SHALL respond with HTTP 200 and body `{ status: \"ok\" }`.\n2. IF the request is unauthenticated THEN the system SHALL still respond with HTTP 200 and body `{ status: \"ok\" }`.\n3. WHEN the service is running THEN the system SHALL respond without performing any external dependency checks.\n\n## Non-Functional Requirements\n\n### Code Architecture and Modularity\n- **Single Responsibility Principle**: The health check handler should only return service status\n- **Modular Design**: Route definition should follow existing API routing patterns\n- **Dependency Management**: Avoid introducing new dependencies for this endpoint\n- **Clear Interfaces**: The route and handler should be easy to locate and understand\n\n### Performance\n- The endpoint should respond quickly and avoid unnecessary computation.\n\n### Security\n- The endpoint should not require authentication and should expose only minimal status data.\n\n### Reliability\n- The endpoint should return a successful response as long as the service is running.\n\n### Usability\n- The endpoint should be consistent and predictable for monitoring tools.\n",
+  "fileStats": {
+    "size": 1698,
+    "lines": 42,
+    "lastModified": "2025-12-19T04:30:10.217Z"
+  },
+  "comments": []
+}
