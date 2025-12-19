@@ -23,9 +23,9 @@ lazy val root = project
   .in(file("."))
   .settings(
     libraryDependencies ++= Seq(
-      "dev.zio" %% "zio" % "2.1.12",
-      "dev.zio" %% "zio-http" % "3.0.0",
-      "dev.zio" %% "zio-test" % "2.1.12" % Test,
-      "dev.zio" %% "zio-test-sbt" % "2.1.12" % Test
+      "dev.zio" %% "zio" % "2.1.23",
+      "dev.zio" %% "zio-http" % "3.7.4",
+      "dev.zio" %% "zio-test" % "2.1.23" % Test,
+      "dev.zio" %% "zio-test-sbt" % "2.1.23" % Test
     )
   )

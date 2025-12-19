@@ -10,13 +10,15 @@ object HealthzSpec extends ZIOSpecDefault:
   override def spec: Spec[Any, Any] =
     suite("HealthzRoutes")(
       test("GET /healthz returns ok status body") {
-        for
-          url <- ZIO.fromEither(URL.decode("/healthz"))
-          response <- app.runZIO(Request.get(url))
-          body <- response.body.asString
-        yield assertTrue(
-          response.status == Status.Ok,
-          body == """{"status":"ok"}"""
-        )
+        ZIO.scoped {
+          for
+            url <- ZIO.fromEither(URL.decode("/healthz"))
+            response <- app.runZIO(Request.get(url))
+            body <- response.body.asString
+          yield assertTrue(
+            response.status == Status.Ok,
+            body == """{"status":"ok"}"""
+          )
+        }
       }
     )
